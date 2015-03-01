@@ -47,6 +47,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,10 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EfCategoryService.cs" />
-    <Compile Include="ICategoryService.cs" />
-    <Compile Include="IProductService.cs" />
+    <Compile Include="Contracts\ICategoryService.cs" />
+    <Compile Include="Contracts\IProductService.cs" />
     <Compile Include="EfProductService.cs" />
+    <Compile Include="Contracts\ISessionProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EF_Sample07.DataLayer\EF_Sample07.DataLayer.csproj">

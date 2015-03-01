@@ -3,6 +3,7 @@ using System.Data.Entity;
 using System.Linq;
 using EF_Sample07.DataLayer.Context;
 using EF_Sample07.DomainClasses;
+using EF_Sample07.ServiceLayer.Contracts;
 
 namespace EF_Sample07.ServiceLayer
 {

@@ -1,16 +1,8 @@
 ﻿using System.Web;
+using EF_Sample07.ServiceLayer.Contracts;
 
-namespace EF_Sample07.IoCConfig
+namespace EF_Sample07.ServiceLayer
 {
-    public interface ISessionProvider
-    {
-        object Get(string key);
-        T Get<T>(string key) where T : class;
-        void Remove(string key);
-        void RemoveAll();
-        void Store(string key, object value);
-    }
-
     public class DefaultWebSessionProvider : ISessionProvider
     {
         private readonly HttpSessionStateBase _session;

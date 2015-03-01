@@ -3,7 +3,7 @@ using System.Data.Entity;
 using EF_Sample07.DataLayer.Context;
 using EF_Sample07.DomainClasses;
 using EF_Sample07.IoCConfig;
-using EF_Sample07.ServiceLayer;
+using EF_Sample07.ServiceLayer.Contracts;
 using StructureMap.Web.Pipeline;
 
 namespace EF_Sample07

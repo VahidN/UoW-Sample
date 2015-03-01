@@ -1,7 +1,7 @@
-﻿using EF_Sample07.DomainClasses;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using EF_Sample07.DomainClasses;
 
-namespace EF_Sample07.ServiceLayer
+namespace EF_Sample07.ServiceLayer.Contracts
 {
     public interface IProductService
     {

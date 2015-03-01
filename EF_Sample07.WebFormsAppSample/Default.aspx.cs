@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Web.Configuration;
 using EF_Sample07.DataLayer.Context;
-using EF_Sample07.IoCConfig;
-using EF_Sample07.ServiceLayer;
+using EF_Sample07.ServiceLayer.Contracts;
 
 namespace EF_Sample07.WebFormsAppSample
 {

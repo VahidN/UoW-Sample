@@ -3,6 +3,7 @@ using System.Threading;
 using System.Web;
 using EF_Sample07.DataLayer.Context;
 using EF_Sample07.ServiceLayer;
+using EF_Sample07.ServiceLayer.Contracts;
 using StructureMap;
 using StructureMap.Web;
 using StructureMap.Web.Pipeline;
