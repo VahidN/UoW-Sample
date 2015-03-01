@@ -1,0 +1,165 @@
+﻿<error errorId="4d7aeb17-24c8-4923-97ca-818ca25f31db" application="/LM/W3SVC/42/ROOT" host="VAHIDPC" type="ElmahEFLogger.CustomElmahLogger.ElmahEfInterceptorException" message="Invalid object name 'dbo.EdmMetadata'." detail="System.Exception: &#xD;&#xA;Command: &#xD;&#xA;SELECT TOP (1) &#xD;&#xA;    [Extent1].[Id] AS [Id], &#xD;&#xA;    [Extent1].[ModelHash] AS [ModelHash]&#xD;&#xA;    FROM [dbo].[EdmMetadata] AS [Extent1]&#xD;&#xA;    ORDER BY [Extent1].[Id] DESC&#xD;&#xA;&#xD;&#xA;OriginalException:&#xD;&#xA;System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.EdmMetadata'.&#xD;&#xA;   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;&#xA;   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;&#xA;   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;&#xA;   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;&#xA;   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()&#xD;&#xA;   at System.Data.SqlClient.SqlDataReader.get_MetaData()&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, SqlDataReader ds)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)&#xD;&#xA;   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)&#xD;&#xA;   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.&lt;Reader&gt;b__c(DbCommand t, DbCommandInterceptionContext`1 c)&#xD;&#xA;   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)&#xD;&#xA;ClientConnectionId:afe74f25-5d14-4ed8-9f7e-d92f22dd1707&#xD;&#xA;Error Number:208,State:1,Class:16 &#xD;&#xA; ---&gt; ElmahEFLogger.CustomElmahLogger.ElmahEfInterceptorException: Invalid object name 'dbo.EdmMetadata'.&#xD;&#xA;   --- End of inner exception stack trace ---" time="2014-12-29T06:57:16.3576176Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:Keep-Alive&#xD;&#xA;HTTP_ACCEPT:text/html, application/xhtml+xml, */*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.7,fa;q=0.3&#xD;&#xA;HTTP_COOKIE:.AspNet.ApplicationCookie=oYd44g4eyogf8krG2IWx8KIlio53l_KnTlLPzZCIZVRPXOLYIU-1eu6mCBh5dxQMcxrfa97iVP7hkMJu31DmvtgyZyoqCcHASzxsIHGd9QB-CmtiSFrLXHXUrTFxQa1as-vx-VTfcXDFPXNTvNPhj2TqNQ9iBfxcuPjz6Aeq_HjH17FqG-H4rEJrV3GSY3C2Rur4uI_oDbeNNOwOi7X-x9qYsHNSOBL6KsUNhCFJPP0EpZvn2cdcBs6YPaZZAAClbCAEHPM7-indadjJtyeKxJyvhA-Cg88P40XWyDnRqX51YvkbCECCzKpIdZLtDuK0mOktFuIAWoSDFbs1_zswY2NKZzjwGtBfTnw53MjhRZQBxCKUoIcf7hDH6BlKU3yXfmpN7fcHrEaxbLsQCOAIk8J84-9CV9fLRzGFaoCf4J8D_CtiBB1CMAVBmlsWJ8BTmrPtjDmkRegW7SQaIJcjTKmsT5GMhrLAXdYVHNBICqc3TMTeG0U6BF99u-MvYo5p; .403MyBlogApp=2A43C787755FCD9A18FCC867E49E781ED509DD9F0FA07A4E816D07DE9A0C10E05D064A9B8B34BBC14E357CAE55F7E627B61B8F277A5E0D5F3D26FB3E0B1C3D4CABFEDACC96F08FCA676730E5A63E9316595EAC0B8817A4EAAE7E38AB46364F534798E59224FB312E3E6642E5BC97F5B7EF3992CB56589BA31F317C108E431971&#xD;&#xA;HTTP_HOST:localhost:1137&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko&#xD;&#xA;HTTP_DNT:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: Keep-Alive&#xD;&#xA;Accept: text/html, application/xhtml+xml, */*&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: en-US,en;q=0.7,fa;q=0.3&#xD;&#xA;Cookie: .AspNet.ApplicationCookie=oYd44g4eyogf8krG2IWx8KIlio53l_KnTlLPzZCIZVRPXOLYIU-1eu6mCBh5dxQMcxrfa97iVP7hkMJu31DmvtgyZyoqCcHASzxsIHGd9QB-CmtiSFrLXHXUrTFxQa1as-vx-VTfcXDFPXNTvNPhj2TqNQ9iBfxcuPjz6Aeq_HjH17FqG-H4rEJrV3GSY3C2Rur4uI_oDbeNNOwOi7X-x9qYsHNSOBL6KsUNhCFJPP0EpZvn2cdcBs6YPaZZAAClbCAEHPM7-indadjJtyeKxJyvhA-Cg88P40XWyDnRqX51YvkbCECCzKpIdZLtDuK0mOktFuIAWoSDFbs1_zswY2NKZzjwGtBfTnw53MjhRZQBxCKUoIcf7hDH6BlKU3yXfmpN7fcHrEaxbLsQCOAIk8J84-9CV9fLRzGFaoCf4J8D_CtiBB1CMAVBmlsWJ8BTmrPtjDmkRegW7SQaIJcjTKmsT5GMhrLAXdYVHNBICqc3TMTeG0U6BF99u-MvYo5p; .403MyBlogApp=2A43C787755FCD9A18FCC867E49E781ED509DD9F0FA07A4E816D07DE9A0C10E05D064A9B8B34BBC14E357CAE55F7E627B61B8F277A5E0D5F3D26FB3E0B1C3D4CABFEDACC96F08FCA676730E5A63E9316595EAC0B8817A4EAAE7E38AB46364F534798E59224FB312E3E6642E5BC97F5B7EF3992CB56589BA31F317C108E431971&#xD;&#xA;Host: localhost:1137&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko&#xD;&#xA;DNT: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/42/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="D:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.MvcAppSample\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="42" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/42" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="D:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.MvcAppSample" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="3528" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="1137" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="Keep-Alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html, application/xhtml+xml, */*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-US,en;q=0.7,fa;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string=".AspNet.ApplicationCookie=oYd44g4eyogf8krG2IWx8KIlio53l_KnTlLPzZCIZVRPXOLYIU-1eu6mCBh5dxQMcxrfa97iVP7hkMJu31DmvtgyZyoqCcHASzxsIHGd9QB-CmtiSFrLXHXUrTFxQa1as-vx-VTfcXDFPXNTvNPhj2TqNQ9iBfxcuPjz6Aeq_HjH17FqG-H4rEJrV3GSY3C2Rur4uI_oDbeNNOwOi7X-x9qYsHNSOBL6KsUNhCFJPP0EpZvn2cdcBs6YPaZZAAClbCAEHPM7-indadjJtyeKxJyvhA-Cg88P40XWyDnRqX51YvkbCECCzKpIdZLtDuK0mOktFuIAWoSDFbs1_zswY2NKZzjwGtBfTnw53MjhRZQBxCKUoIcf7hDH6BlKU3yXfmpN7fcHrEaxbLsQCOAIk8J84-9CV9fLRzGFaoCf4J8D_CtiBB1CMAVBmlsWJ8BTmrPtjDmkRegW7SQaIJcjTKmsT5GMhrLAXdYVHNBICqc3TMTeG0U6BF99u-MvYo5p; .403MyBlogApp=2A43C787755FCD9A18FCC867E49E781ED509DD9F0FA07A4E816D07DE9A0C10E05D064A9B8B34BBC14E357CAE55F7E627B61B8F277A5E0D5F3D26FB3E0B1C3D4CABFEDACC96F08FCA676730E5A63E9316595EAC0B8817A4EAAE7E38AB46364F534798E59224FB312E3E6642E5BC97F5B7EF3992CB56589BA31F317C108E431971" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:1137" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko" />
+    </item>
+    <item name="HTTP_DNT">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name=".AspNet.ApplicationCookie">
+      <value string="oYd44g4eyogf8krG2IWx8KIlio53l_KnTlLPzZCIZVRPXOLYIU-1eu6mCBh5dxQMcxrfa97iVP7hkMJu31DmvtgyZyoqCcHASzxsIHGd9QB-CmtiSFrLXHXUrTFxQa1as-vx-VTfcXDFPXNTvNPhj2TqNQ9iBfxcuPjz6Aeq_HjH17FqG-H4rEJrV3GSY3C2Rur4uI_oDbeNNOwOi7X-x9qYsHNSOBL6KsUNhCFJPP0EpZvn2cdcBs6YPaZZAAClbCAEHPM7-indadjJtyeKxJyvhA-Cg88P40XWyDnRqX51YvkbCECCzKpIdZLtDuK0mOktFuIAWoSDFbs1_zswY2NKZzjwGtBfTnw53MjhRZQBxCKUoIcf7hDH6BlKU3yXfmpN7fcHrEaxbLsQCOAIk8J84-9CV9fLRzGFaoCf4J8D_CtiBB1CMAVBmlsWJ8BTmrPtjDmkRegW7SQaIJcjTKmsT5GMhrLAXdYVHNBICqc3TMTeG0U6BF99u-MvYo5p" />
+    </item>
+    <item name=".403MyBlogApp">
+      <value string="2A43C787755FCD9A18FCC867E49E781ED509DD9F0FA07A4E816D07DE9A0C10E05D064A9B8B34BBC14E357CAE55F7E627B61B8F277A5E0D5F3D26FB3E0B1C3D4CABFEDACC96F08FCA676730E5A63E9316595EAC0B8817A4EAAE7E38AB46364F534798E59224FB312E3E6642E5BC97F5B7EF3992CB56589BA31F317C108E431971" />
+    </item>
+  </cookies>
+</error>

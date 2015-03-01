@@ -1,0 +1,162 @@
+﻿<error errorId="29c3c65b-7db2-4a00-ab82-d765130fa7ca" application="/LM/W3SVC/42/ROOT" host="VAHIDPC" type="System.InvalidOperationException" message="ValueFactory attempted to access the Value property of this instance." source="mscorlib" detail="System.InvalidOperationException: ValueFactory attempted to access the Value property of this instance.&#xD;&#xA;   at System.Lazy`1.CreateValue()&#xD;&#xA;   at System.Lazy`1.LazyInitValue()&#xD;&#xA;   at System.Lazy`1.get_Value()&#xD;&#xA;   at EF_Sample07.IoCConfig.SmObjectFactory.get_Container() in d:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.IoCConfig\SmObjectFactory.cs:line 19&#xD;&#xA;   at EF_Sample07.IoCConfig.SmObjectFactory.getCurrentConnectionString() in d:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.IoCConfig\SmObjectFactory.cs:line 63&#xD;&#xA;   at EF_Sample07.IoCConfig.SmObjectFactory.&lt;defaultContainer&gt;b__0(ConfigurationExpression ioc) in d:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.IoCConfig\SmObjectFactory.cs:line 36&#xD;&#xA;   at StructureMap.PipelineGraph.For(Action`1 action) in c:\BuildAgent\work\996e173a8ceccdca\src\StructureMap\PipelineGraph.cs:line 15&#xD;&#xA;   at StructureMap.Container..ctor(Action`1 action) in c:\BuildAgent\work\996e173a8ceccdca\src\StructureMap\Container.cs:line 24&#xD;&#xA;   at EF_Sample07.IoCConfig.SmObjectFactory.defaultContainer() in d:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.IoCConfig\SmObjectFactory.cs:line 29&#xD;&#xA;   at System.Lazy`1.CreateValue()&#xD;&#xA;   at System.Lazy`1.LazyInitValue()&#xD;&#xA;   at System.Lazy`1.get_Value()&#xD;&#xA;   at EF_Sample07.IoCConfig.SmObjectFactory.get_Container() in d:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.IoCConfig\SmObjectFactory.cs:line 19&#xD;&#xA;   at EF_Sample07.MvcAppSample.StructureMapControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType) in d:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.MvcAppSample\Global.asax.cs:line 86&#xD;&#xA;   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" time="2015-02-28T21:32:04.3147010Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:Keep-Alive&#xD;&#xA;HTTP_ACCEPT:text/html, application/xhtml+xml, */*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.7,fa;q=0.3&#xD;&#xA;HTTP_COOKIE:.403MyBlogApp=CCE8DD4A7292C3C6EF5788FBD394273FF03FC40F3952E4160A70EABD10F76205460286F50A5B51AA1E9D9BC6FC75B29546388AED53DEE9107B103C49749F3B7929B9D809759E5EC4EC8C1288FA36710FC498A9098108B1817678DCA7AF1677809F8832426396287210D93F22353A960582F11B23A93952B3DEA7E9E10908F1CA&#xD;&#xA;HTTP_HOST:localhost:1137&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko&#xD;&#xA;HTTP_DNT:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: Keep-Alive&#xD;&#xA;Accept: text/html, application/xhtml+xml, */*&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: en-US,en;q=0.7,fa;q=0.3&#xD;&#xA;Cookie: .403MyBlogApp=CCE8DD4A7292C3C6EF5788FBD394273FF03FC40F3952E4160A70EABD10F76205460286F50A5B51AA1E9D9BC6FC75B29546388AED53DEE9107B103C49749F3B7929B9D809759E5EC4EC8C1288FA36710FC498A9098108B1817678DCA7AF1677809F8832426396287210D93F22353A960582F11B23A93952B3DEA7E9E10908F1CA&#xD;&#xA;Host: localhost:1137&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko&#xD;&#xA;DNT: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/42/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="D:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.MvcAppSample\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="42" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/42" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="D:\Prog\1391\EF_Samples\EF_Sample07\EF_Sample07.MvcAppSample" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="20677" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="1137" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/8.0" />
+    </item>
+    <item name="URL">
+      <value string="/" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="Keep-Alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html, application/xhtml+xml, */*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-US,en;q=0.7,fa;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string=".403MyBlogApp=CCE8DD4A7292C3C6EF5788FBD394273FF03FC40F3952E4160A70EABD10F76205460286F50A5B51AA1E9D9BC6FC75B29546388AED53DEE9107B103C49749F3B7929B9D809759E5EC4EC8C1288FA36710FC498A9098108B1817678DCA7AF1677809F8832426396287210D93F22353A960582F11B23A93952B3DEA7E9E10908F1CA" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:1137" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko" />
+    </item>
+    <item name="HTTP_DNT">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name=".403MyBlogApp">
+      <value string="CCE8DD4A7292C3C6EF5788FBD394273FF03FC40F3952E4160A70EABD10F76205460286F50A5B51AA1E9D9BC6FC75B29546388AED53DEE9107B103C49749F3B7929B9D809759E5EC4EC8C1288FA36710FC498A9098108B1817678DCA7AF1677809F8832426396287210D93F22353A960582F11B23A93952B3DEA7E9E10908F1CA" />
+    </item>
+  </cookies>
+</error>
