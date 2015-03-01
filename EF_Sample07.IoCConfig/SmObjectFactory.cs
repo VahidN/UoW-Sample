@@ -44,9 +44,6 @@ namespace EF_Sample07.IoCConfig
                 ioc.For<ICategoryService>().Use<EfCategoryService>();
                 ioc.For<IProductService>().Use<EfProductService>();
 
-                ioc.For<ICategoryService>().Use<EfCategoryService>();
-                ioc.For<IProductService>().Use<EfProductService>();
-
                 ioc.Policies.SetAllProperties(properties =>
                 {
                     properties.OfType<IUnitOfWork>();
